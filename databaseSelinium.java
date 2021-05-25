@@ -6,9 +6,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class databaseSelinium {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+
+
+public class databaseSelinium {
+@Test
+	public static void main() throws SQLException, ClassNotFoundException {
 		// Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"
 		String dbUrl = "jdbc:mysql://localhost:3306/student_mysql";
 
